@@ -49,7 +49,7 @@ const CreateEvent = () => {
 
     if (title && selectedUsers.length > 0) {
       const payload = { title, selectedUsers };
-      console.log('payload: ', payload);
+      // console.log('payload: ', payload);
       dispatch(postEvent(payload))
         .then((
           dispatch(getList())
