@@ -57,7 +57,8 @@ const CreateEvent = () => {
 
       setTitle('');
       setSelectedUsers([]);
-      window.location.reload();
+      setTimeout( window.location.reload(), 2000);
+      // window.location.reload();
     } else {
       alert('Enter required details or select the participants from the list or add');
     }
